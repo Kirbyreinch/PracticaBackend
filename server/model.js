@@ -141,11 +141,11 @@ const NavesSchemas = new mongoose.Schema(
             type:String,
             
         },
-        Numero_Pasajeros:{
+        Numero_de_Pasajeros:{
             type:String,
             
         },
-        Maxima_Velocidad_atmosferica:{
+        Maxima_velocidad_atmosferica:{
             type:String,
             
         },
@@ -157,11 +157,11 @@ const NavesSchemas = new mongoose.Schema(
             type:String,
             
         },
-        Capacidad_carga:{
+        Capacidad_de_carga:{
             type:String,
             
         },
-        Tiempo_Max_Consumibles:{
+        Tiempo_Maximo_Cobustibles:{
             type:String,
             
         },
@@ -194,11 +194,11 @@ const VehiculoSchemas = new mongoose.Schema(
             type:String,
             
         },
-        Numero_Pasajeros:{
+        Numero_de_Pasajeros:{
             type:String,
             
         },
-        Maxima_Velocidad_atmosferica:{
+        Maxima_velocidad_atmosferica:{
             type:String,
             
         },
@@ -207,7 +207,7 @@ const VehiculoSchemas = new mongoose.Schema(
             
         },
 
-        Tiempo_Max_Cosumibles:{
+        Tiempo_Maximo_Cobustibles:{
             type:String,
             
         },
