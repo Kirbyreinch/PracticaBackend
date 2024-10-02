@@ -115,7 +115,7 @@ const llenarBDplanetas = async () => {
         await Promise.all(promises); 
         console.log("Planetas guardados con éxito.");
     } catch (error) {
-        console.error("Error al llenar la base de datos: ", error.message);
+        console.error("Errores al llenar la base de datos: ", error.message);
     }
 };
 llenarBDplanetas();
