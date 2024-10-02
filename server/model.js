@@ -92,19 +92,19 @@ const especiesSchemas = new mongoose.Schema(
             type:String,
             
         },
-        Promedio_Vida:{
+        Color_de_piel:{
             type:String,
             
         },
-        Color_Ojos:{
+        Color_de_cabello:{
             type:String,
             
         },
-        Color_Cabello:{
+        Color_de_ojos:{
             type:String,
             
         },
-        Color_Piel:{
+        Promedio_de_vida:{
             type:String,
             
         },
