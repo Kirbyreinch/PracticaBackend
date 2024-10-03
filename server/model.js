@@ -263,12 +263,6 @@ const PersonajeSchemas = new mongoose.Schema(
 
 
 
-
-
-
-
-
-
 // Crear los modelos
 const PersonajesModel = mongoose.model("Personajes", PersonajeSchemas);
 const VehiculosModel = mongoose.model("Vehiculos", VehiculoSchemas);
@@ -277,7 +271,10 @@ const especiesModel = mongoose.model("Especies", especiesSchemas);
 const PelisModel = mongoose.model("Peliculas", pelisSchema);
 const PlanetasModel = mongoose.model("Planetas", planetSchema);
 
-// Exportar ambos modelos
+
+
+
+// Exportar  modelos
 module.exports = {
     VehiculosModel,
     PersonajesModel,
